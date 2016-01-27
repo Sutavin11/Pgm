@@ -8,19 +8,9 @@
           </block>
         </value>
         <next>
-          <block type="movement_leftmotor" id="231" inline="true">
-            <value name="MOVLEFT">
-              <block type="math_number" id="247">
-                <field name="NUM">100</field>
-              </block>
-            </value>
+          <block type="movement_stutter" id="294">
             <next>
-              <block type="movement_rightmotor" id="268" inline="true">
-                <value name="MOVRIGHT">
-                  <block type="math_number" id="282">
-                    <field name="NUM">50</field>
-                  </block>
-                </value>
+              <block type="movement_stutter" id="304">
                 <next>
                   <block type="robot_delay" id="283" inline="true">
                     <value name="DELAY">
