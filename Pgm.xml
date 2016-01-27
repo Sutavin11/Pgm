@@ -11,7 +11,7 @@
           <block type="movement_leftmotor" id="368" inline="true">
             <value name="MOVLEFT">
               <block type="math_number" id="376">
-                <field name="NUM">400</field>
+                <field name="NUM">800</field>
               </block>
             </value>
             <next>
