@@ -11,11 +11,20 @@
           <block type="movement_leftmotor" id="231" inline="true">
             <value name="MOVLEFT">
               <block type="math_number" id="247">
-                <field name="NUM">1000</field>
+                <field name="NUM">100</field>
               </block>
             </value>
             <next>
-              <block type="movement_stop" id="258"></block>
+              <block type="movement_rightmotor" id="268" inline="true">
+                <value name="MOVRIGHT">
+                  <block type="math_number" id="282">
+                    <field name="NUM">50</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="movement_stop" id="258"></block>
+                </next>
+              </block>
             </next>
           </block>
         </next>
