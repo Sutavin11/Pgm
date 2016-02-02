@@ -1,1 +1,8 @@
-<xml xmlns="http://www.w3.org/1999/xhtml"></xml>
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="controls_whileUntil" id="30" inline="false" x="218" y="35">
+    <field name="MODE">UNTIL</field>
+    <statement name="DO">
+      <block type="movement_stop" id="66"></block>
+    </statement>
+  </block>
+</xml>
