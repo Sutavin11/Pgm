@@ -32,12 +32,12 @@
                             <field name="OP">LT</field>
                             <value name="A">
                               <block type="sensor_light" id="192">
-                                <field name="LIGHT">RIGHT</field>
+                                <field name="LIGHT">LEFT</field>
                               </block>
                             </value>
                             <value name="B">
                               <block type="math_number" id="12">
-                                <field name="NUM">80</field>
+                                <field name="NUM">40</field>
                               </block>
                             </value>
                           </block>
@@ -69,7 +69,7 @@
                                         </value>
                                         <value name="B">
                                           <block type="math_number" id="20">
-                                            <field name="NUM">40</field>
+                                            <field name="NUM">80</field>
                                           </block>
                                         </value>
                                       </block>
