@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="movement_forward" id="202" x="240" y="37">
+  <block type="movement_reverse" id="353" x="258" y="116">
     <next>
       <block type="controls_whileUntil" id="243" inline="false">
         <field name="MODE">WHILE</field>
@@ -7,8 +7,8 @@
           <block type="logic_compare" id="295" inline="true">
             <field name="OP">GT</field>
             <value name="A">
-              <block type="sensor_object" id="310">
-                <field name="OBJECT">LEFTFRONT</field>
+              <block type="sensor_object" id="343">
+                <field name="OBJECT">REAR</field>
               </block>
             </value>
             <value name="B">
